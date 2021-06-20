@@ -1,0 +1,30 @@
+body {
+  font-size: 100px;
+}
+
+.timer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto 100px auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field:not(:last-child) {
+  margin-right: 60px;
+}
+
+.label {
+  font-size: 30px;
+}
+
+.until {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+}
